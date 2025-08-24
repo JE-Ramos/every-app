@@ -5,20 +5,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- Primary Meta Tags -->
-    <title>EveryApp - The First AI Native Cross-platform Component Library</title>
-    <meta name="title" content="EveryApp - The First AI Native Cross-platform Component Library">
-    <meta name="description" content="Build cross-platform apps faster with reusable components and AI-native UI generation. EveryApp is the first AI-powered component library built with Compose Multiplatform for Android, iOS, Web, and Desktop.">
-    <meta name="keywords" content="AI components, cross-platform development, Compose Multiplatform, Android, iOS, Web, Desktop, UI components, AI native, app development, Kotlin Multiplatform">
-    <meta name="author" content="EveryApp">
+    <title>EveryApp - AI Native Cross-platform Component Library | Compose Multiplatform</title>
+    <meta name="title" content="EveryApp - AI Native Cross-platform Component Library | Compose Multiplatform">
+    <meta name="description" content="Build cross-platform apps faster with EveryApp's reusable UI components. AI-native component library built with Compose Multiplatform for Android, iOS, Web, and Desktop. Join the waitlist for early access.">
+    <meta name="keywords" content="AI components, cross-platform development, Compose Multiplatform, Android development, iOS development, Web development, Desktop apps, UI components, AI native, app development, Kotlin Multiplatform, reusable components, component library, JE Ramos">
+    <meta name="author" content="JE Ramos">
     <meta name="robots" content="index, follow">
     <meta name="language" content="English">
+    <meta name="theme-color" content="#F97316">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://everytech-io.github.io/everyapp/">
     
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="./images/favicon.png">
-    <link rel="apple-touch-icon" href="./images/favicon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon.png">
+    
+    <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:title" content="EveryApp - The First AI Native Cross-platform Component Library">
-    <meta property="og:description" content="Build cross-platform apps faster with reusable components and AI-native UI generation. EveryApp is the first AI-Native component library built with Compose Multiplatform for Android, iOS, Web, and Desktop.">
+    <meta property="og:url" content="https://everytech-io.github.io/everyapp/">
+    <meta property="og:title" content="EveryApp - AI Native Cross-platform Component Library">
+    <meta property="og:description" content="Build cross-platform apps faster with EveryApp's reusable UI components. AI-native component library built with Compose Multiplatform for Android, iOS, Web, and Desktop.">
+    <meta property="og:image" content="https://everytech-io.github.io/everyapp/images/favicon.png">
+    <meta property="og:site_name" content="EveryApp">
+    <meta property="og:locale" content="en_US">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://everytech-io.github.io/everyapp/">
+    <meta name="twitter:title" content="EveryApp - AI Native Cross-platform Component Library">
+    <meta name="twitter:description" content="Build cross-platform apps faster with EveryApp's reusable UI components. AI-native component library built with Compose Multiplatform.">
+    <meta name="twitter:image" content="https://everytech-io.github.io/everyapp/images/favicon.png">
+    <meta name="twitter:creator" content="@je_ramos">
+    
+    <!-- Schema.org structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "EveryApp",
+      "description": "AI Native Cross-platform Component Library built with Compose Multiplatform for Android, iOS, Web, and Desktop development",
+      "url": "https://everytech-io.github.io/everyapp/",
+      "author": {
+        "@type": "Person",
+        "name": "JE Ramos",
+        "url": "https://ramos.je"
+      },
+      "applicationCategory": "DeveloperApplication",
+      "operatingSystem": ["Android", "iOS", "Web", "Windows", "macOS", "Linux"],
+      "programmingLanguage": "Kotlin",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD",
+        "description": "Free and open source component library"
+      }
+    }
+    </script>
 
     <!-- AI Crawler Tags -->
     <meta name="ai:type" content="component-library">
@@ -26,10 +71,27 @@
     <meta name="ai:platforms" content="Android,iOS,Web,Desktop">
     <meta name="ai:technology" content="Compose Multiplatform,Kotlin,AI">
     <meta name="ai:purpose" content="Cross-platform UI component library with AI-native generation">
+    <meta name="ai:license" content="open-source">
 
+    <!-- Preload critical resources -->
+    <link rel="preload" href="composeApp.js" as="script">
+    <link rel="preload" href="styles.css" as="style">
+    
+    <!-- Stylesheets -->
     <link type="text/css" rel="stylesheet" href="styles.css">
-    <script type="application/javascript" src="composeApp.js"></script>
+    
+    <!-- Main application script -->
+    <script type="application/javascript" src="composeApp.js" defer></script>
 </head>
 <body>
+    <!-- Fallback content for users with JavaScript disabled -->
+    <noscript>
+        <div style="padding: 40px; text-align: center; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+            <h1>EveryApp - AI Native Component Library</h1>
+            <p>This application requires JavaScript to run. Please enable JavaScript in your browser to continue.</p>
+            <p>EveryApp is a cross-platform component library built with Compose Multiplatform for Android, iOS, Web, and Desktop development.</p>
+            <p>Created by <a href="https://ramos.je" target="_blank" rel="noopener">JE Ramos</a></p>
+        </div>
+    </noscript>
 </body>
 </html>
